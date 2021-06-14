@@ -1,0 +1,11 @@
+var obj1 = {
+    name: "Vitor",
+    age: 18,
+    gender: "Masc",
+}
+
+var obj1Json = JSON.stringify(obj1);
+console.log(obj1Json);
+
+var obj1Obj = JSON.parse(obj1Json);
+console.log(obj1Obj);
